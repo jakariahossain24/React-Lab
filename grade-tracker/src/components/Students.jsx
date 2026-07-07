@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Students = ({name, age, email}) => {
+const Students = (props) => {
   return (
     <>
-    <p>student name is {name}</p>
-    <p>student name is {age}</p>
-    <p>student name is {email} </p>
+    <p>student name is {props.name}</p>
+    <p>student name is {props.age}</p>
+    <p>student name is {props.email} </p>
+    <p>student phn number {props.phn} </p>
 
     </>
   )
