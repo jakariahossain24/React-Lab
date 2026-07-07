@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from './Components/Navbar';
+import NewsItem from './Components/NewsItem';
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <Navbar />
+    <NewsItem />
+    </>
   )
 }
 
